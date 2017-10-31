@@ -17,12 +17,12 @@ config.buildPath = {
 }
 
 // Init browser sync
-gulp.task('browsersync', function(){
-	browserSync({
-		server: {
+gulp.task("browsersync", function(){
+    browserSync({
+        server: {
             baseDir: "./"
-		}
-	});
+        }
+    });
 });
 
 // Join and uglify all our JS files
